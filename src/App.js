@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+
+import Login from './components/Login';
+import TestimonialList from './components/TestimonialList';
+import TestimonialListAdmin from './components/TestimonialListAdmin';
+import Redirect from './components/Redirect';
+// wildcard or redirect or 404
 
 function App() {
+  const [authToken, setAuthtoken] = useState('Not Authenticated');
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Private View</h1>
+        <Router>
+          {/* how to go, when */}
+          <Routes>
+            {/* declaring what urls are */}
+            <Route path="/login" authToken={authToken} setAuthtoken={setAuthtoken} element={<Login />} />
+            <Route path="/logged" element={<TestimonialListAdmin />} />
+            <Route path="/notloggedin" element={<TestimonialList />} />
+            <Route path="/*" element={<Redirect />} />
+          </Routes>
+        </Router>
     </div>
   );
-}
+};
 
 export default App;
