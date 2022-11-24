@@ -1,9 +1,5 @@
 // home page + intro
 
 export function Home() {
-  return (
-    <div>
-      <h1>Introduction</h1>
-    </div>
-  );
+  return <h1>Introduction</h1>;
 }
