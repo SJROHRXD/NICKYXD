@@ -1,0 +1,18 @@
+[
+  {
+    "number": "1",
+    "label": "MANs"
+  },
+  {
+    "number": "2",
+    "label": "LANs"
+  },
+  {
+    "number": "3",
+    "label": "WLAN"
+  },
+  {
+    "number": "4",
+    "label": "VoIP"
+  }
+]

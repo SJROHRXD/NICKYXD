@@ -1,8 +1,11 @@
+import { ResumeCard } from "../components/resumecomps/ResumeCard";
+import { Container } from "react-bootstrap";
+
 export function Resume() {
   return (
-    <div>
-      <h1>Resume+</h1>
-    </div>
+    <Container>
+      <ResumeCard />
+    </Container>
   );
 }
 
