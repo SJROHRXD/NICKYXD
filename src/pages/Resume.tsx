@@ -18,11 +18,4 @@ export function Resume() {
 // filter by location
 // filter by description keywords
 
-// group job
-// // title / role
-// // company (contract flag, contract company name)
-// // date range
-// // location
-
-// // job description +
-// // skills
+// filter box, sort box

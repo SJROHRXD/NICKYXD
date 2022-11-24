@@ -19,3 +19,5 @@ export function Skills() {
 // map through testSkills.json and create a button for each skill, each button will have a unique id
 
 // edit buttons as 'chips' / links to tags / onclick filter by selected tag?
+
+// add checkmark to tags to indicate filtering

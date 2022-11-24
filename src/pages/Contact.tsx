@@ -1,5 +1,6 @@
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
 import { SocMedBox } from "../components/SocMedBox";
+import { MailIcon } from "@primer/octicons-react";
 
 import CreatableSelect from "react-select/creatable";
 
@@ -7,7 +8,10 @@ export function Contact() {
   return (
     <>
       <Container>
-        <h1>Contact Me</h1>
+        <h1>
+          Contact Me <MailIcon size={48} />
+          {/* adjust this icon thing later maybe */}
+        </h1>
         <Row className="mb-2">
           <Col>
             <Form.Group>

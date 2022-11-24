@@ -16,3 +16,6 @@ export function ControlledTabs() {
     </Tabs>
   );
 }
+
+// company info (and title) will at some point be pulled from a cms
+// job description (and title) will at some point be pulled from a cms

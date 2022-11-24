@@ -2,7 +2,7 @@ import { Card } from "react-bootstrap";
 
 export function JobDescription() {
   return (
-    <Card.Text className="bg-light" role="tabpanel">
+    <Card.Text className="" role="tabpanel">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Pretium vulputate
       sapien nec sagittis aliquam malesuada bibendum arcu. Accumsan tortor

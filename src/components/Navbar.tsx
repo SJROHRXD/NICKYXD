@@ -1,5 +1,7 @@
 import { NavLink } from "react-router-dom";
-import { Button, Container, Navbar as Navvy, Nav } from "react-bootstrap";
+import { Container, Navbar as Navvy, Nav } from "react-bootstrap";
+import { ButtonSpecial } from "./buttonspecialcomp/ButtonSpecial";
+// import styles from "../../styles/navSpecialButton.module.css";
 
 export function Navbar() {
   return (
@@ -19,7 +21,7 @@ export function Navbar() {
             Contact
           </Nav.Link>
         </Nav>
-        <Button>testbuttonfornow</Button>
+        <ButtonSpecial />
       </Container>
     </Navvy>
   );
