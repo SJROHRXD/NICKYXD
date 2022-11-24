@@ -1,3 +1,5 @@
+import { Routes, Route } from "react-router-dom";
+import { Container } from "react-bootstrap";
 import { Home } from "./Home";
 import { Resume } from "./Resume";
 import { Projects } from "./Projects";
