@@ -1,0 +1,11 @@
+.nav-tabs .nav-link {
+  color: unset;
+  color: #121113;
+  transition: 0.4s;
+}
+
+.nav-tabs .nav-link:hover {
+  color: unset;
+  color: #121113;
+  background-color: #d4d6b6;
+}

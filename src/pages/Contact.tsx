@@ -1,8 +1,8 @@
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
 import { SocMedBox } from "../components/SocMedBox";
 import { MailIcon } from "@primer/octicons-react";
-
-import CreatableSelect from "react-select/creatable";
+import "../styles/buttonGeneralStyles.css";
+// import CreatableSelect from "react-select/creatable";
 
 export function Contact() {
   return (
@@ -49,7 +49,7 @@ export function Contact() {
           />
         </Form.Group>
 
-        <Button className="mb-2">Send Mail</Button>
+        <Button>Send Mail</Button>
       </Container>
 
       <Container className="fixed-bottom">

@@ -1,7 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { Container, Navbar as Navvy, Nav } from "react-bootstrap";
 import { ButtonSpecial } from "./buttonspecialcomp/ButtonSpecial";
-// import styles from "../../styles/navSpecialButton.module.css";
 
 export function Navbar() {
   return (

@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Tabs, Tab } from "react-bootstrap";
 import { JobDescription } from "./JobDescription";
 import { CompanyInfo } from "./CompanyInfo";
+import "../../styles/navTabLinks.css";
 
 export function ControlledTabs() {
   const [key, setKey] = useState("first");

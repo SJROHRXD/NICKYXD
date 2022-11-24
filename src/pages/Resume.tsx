@@ -1,5 +1,6 @@
 import { ResumeCard } from "../components/resumecomps/ResumeCard";
 import { Container } from "react-bootstrap";
+import "../styles/cardBodyGenStyles.css";
 
 export function Resume() {
   return (
