@@ -12,6 +12,9 @@ export function Navbar() {
           <Nav.Link to="/resume" as={NavLink}>
             Resume
           </Nav.Link>
+          <Nav.Link to="/references" as={NavLink}>
+            References
+          </Nav.Link>
           <Nav.Link to="/contact" as={NavLink}>
             Contact
           </Nav.Link>

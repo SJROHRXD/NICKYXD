@@ -1,5 +1,3 @@
-// jobs render here
-
 export function Resume() {
   return (
     <div>
