@@ -23,11 +23,13 @@ export function Contact() {
           </Col>
         </Row>
         <Row>
-          <Col>plchldr // design fill</Col>
+          <Col>
+            <p>plchldr // design fill</p>
+          </Col>
           <Col xs={8}>
             <Form.Group className="mb-2">
               {/* <Form.Label>Preferred Pronouns // Multiselect in future</Form.Label> */}
-              <Form.Control type="text" placeholder="they/them" />
+              {/* <CreatableSelect isMulti options={} />; */}
             </Form.Group>
           </Col>
         </Row>
@@ -43,7 +45,7 @@ export function Contact() {
           />
         </Form.Group>
 
-        <Button className="mb-2">Submit</Button>
+        <Button className="mb-2">Send Mail</Button>
       </Container>
 
       <Container className="fixed-bottom">
