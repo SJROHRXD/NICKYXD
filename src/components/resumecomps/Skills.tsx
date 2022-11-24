@@ -1,31 +1,20 @@
-import { Button } from "react-bootstrap";
 import { v4 as uuidV4 } from "uuid";
 import testSkills from "../../data/testSkills.json";
+import styles from "../../styles/skillsButton.module.css";
 
 export function Skills() {
   return (
     <div>
       {testSkills.map((skill) => (
-        <Button
-          key={uuidV4()}
-          style={{
-            margin: "0.5rem",
-            border: "none",
-            backgroundColor: "#fe5bac",
-            background: "linear-gradient(45deg, #fe5bac, #ff96ca)",
-            borderRadius: "12px",
-            height: "30px",
-            width: "80px",
-            padding: "3px",
-            color: "#171617",
-          }}
-        >
+        <button key={uuidV4()} className={`${styles.ButtonB}`}>
           {skill.label}
-        </Button>
+        </button>
       ))}
     </div>
   );
 }
+
+// import { Button } from "react-bootstrap"; <-- removed that cuz wow
 
 // map through testSkills.json and create a button for each skill, each button will have a unique id
 
