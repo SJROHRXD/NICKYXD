@@ -1,6 +1,8 @@
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
 import { SocMedBox } from "../components/SocMedBox";
 
+import CreatableSelect from "react-select/creatable";
+
 export function Contact() {
   return (
     <>
@@ -57,7 +59,12 @@ export function Contact() {
 // form
 // your name, preferred pronouns, email address
 // add multiselect for pronouns
+
+//creatablereactselect
+
 // body of message
 // submit button (send email)
 
 // component with links to social media, linkedin, etc
+
+// email export template
