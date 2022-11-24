@@ -3,8 +3,6 @@ import { v4 as uuidV4 } from "uuid";
 import testSkills from "../../data/testSkills.json";
 
 export function Skills() {
-  const tagid = uuidV4();
-
   return (
     <div>
       {testSkills.map((skill) => (
