@@ -5,6 +5,7 @@ import { Resume } from "./pages/Resume";
 import { Contact } from "./pages/Contact";
 import { References } from "./pages/References";
 import { Navbar } from "./components/Navbar";
+import "./styles/App.css";
 
 function App() {
   return (

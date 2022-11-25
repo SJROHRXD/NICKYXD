@@ -1,0 +1,32 @@
+#root {
+  background-image: linear-gradient(
+    to bottom right,
+    #f7f7f2,
+    #d4d6b6,
+    #afc198,
+    #899878
+  );
+
+  min-height: 100vh;
+}
+
+#div.fixed-bottom.container {
+  background-color: transparent;
+}
+
+div.card-body {
+  background-color: #f7f7f2;
+  border-radius: 10px;
+  border: none;
+}
+
+div.card {
+  background-color: #f7f7f2;
+  box-shadow: 8px 8px 5px 0px #22272530;
+  transition: all 0.3s ease 0s;
+  border: none;
+}
+
+div.container {
+  padding-bottom: 10px;
+}

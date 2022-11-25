@@ -1,11 +1,46 @@
+.nav-tabs {
+  flex-wrap: nowrap !important;
+}
+
 .nav-tabs .nav-link {
   color: unset;
   color: #121113;
-  transition: 0.4s;
+  transition: 0.275s;
 }
 
 .nav-tabs .nav-link:hover {
-  color: unset;
   color: #121113;
   background-color: #d4d6b6;
+}
+
+button#controlledTabsWTF-tab-first.nav-link.active {
+  color: #121113;
+  text-decoration: overline #899878ac;
+}
+
+button#controlledTabsWTF-tab-first.nav-link {
+  color: #121113;
+}
+
+button#controlledTabsWTF-tab-companyInfo.nav-link {
+  color: #121113;
+}
+
+button#controlledTabsWTF-tab-companyInfo.nav-link.active {
+  color: #121113;
+  text-decoration: overline #899878ac;
+}
+
+p.card-text {
+  min-height: 8rem;
+}
+
+button#controlledTabsWTF-tab-first.nav-link.active {
+  background-color: #f7f7f2;
+  border-bottom-color: #f7f7f2;
+}
+
+button#controlledTabsWTF-tab-companyInfo.nav-link.active {
+  background-color: #f7f7f2;
+  border-bottom-color: #f7f7f2;
 }

@@ -4,7 +4,7 @@ import { ButtonSpecial } from "./buttonspecialcomp/ButtonSpecial";
 
 export function Navbar() {
   return (
-    <Navvy sticky="top" className="bg-white shadow-sm mb-3">
+    <Navvy sticky="top" className="bg-white shadow-sm mb-3 min-vw-100">
       <Container>
         <Nav className="me-auto">
           <Nav.Link to="/" as={NavLink}>

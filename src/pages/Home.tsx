@@ -1,5 +1,5 @@
 // home page + intro
 
 export function Home() {
-  return <h1>Introduction</h1>;
+  return <h1 className="">Nick Berg</h1>;
 }

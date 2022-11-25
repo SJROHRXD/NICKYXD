@@ -2,6 +2,8 @@ import { Button, Col, Container, Form, Row } from "react-bootstrap";
 import { SocMedBox } from "../components/SocMedBox";
 import { MailIcon } from "@primer/octicons-react";
 import "../styles/buttonGeneralStyles.css";
+import "../styles/contactGenStyles.css";
+
 // import CreatableSelect from "react-select/creatable";
 
 export function Contact() {
