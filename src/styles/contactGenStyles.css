@@ -1,3 +1,35 @@
-#root {
-  margin: 0px auto;
+input.form-control:focus {
+  box-shadow: unset;
+  outline: unset;
+  border: none;
+  background-color: #f7f7f2;
+  box-shadow: 8px 8px 5px 0px #22272511;
+  transition: all 0.3s ease 0s;
+}
+
+input.form-control {
+  box-shadow: unset;
+  outline: unset;
+  border: none;
+  background-color: #f7f7f2;
+  box-shadow: 8px 8px 5px 0px #22272511;
+  transition: all 0.3s ease 0s;
+}
+
+textarea.form-control:focus {
+  box-shadow: unset;
+  outline: unset;
+  border: none;
+  background-color: #f7f7f2;
+  box-shadow: 8px 8px 5px 0px #22272511;
+  transition: all 0.3s ease 0s;
+}
+
+textarea.form-control {
+  box-shadow: unset;
+  outline: unset;
+  border: none;
+  background-color: #f7f7f2;
+  box-shadow: 8px 8px 5px 0px #22272511;
+  transition: all 0.3s ease 0s;
 }
