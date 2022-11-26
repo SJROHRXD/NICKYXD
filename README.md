@@ -37,6 +37,8 @@ A portofolio with 4 main features:
 
 `This app is currently unbuilt and unhosted` 🔜 _ntberg.com_
 
+> [Return to Top](#Table-of-Contents)
+
 ## Installation ✨
 
     git clone https://github.com/SJROHRXD/NICKYXD.git
@@ -52,6 +54,8 @@ Browse the app:
 - _Résumé_
 - _References_
 - _Contact_
+
+> [Return to Top](#Table-of-Contents)
 
 ## Tech ✨
 
@@ -75,7 +79,7 @@ Browse the app:
 
 [Vite](https://vitejs.dev/guide/)
 
-🧷 [Return to Top](#Table-of-Contents)
+> [Return to Top](#Table-of-Contents)
 
 ## Licensing ✨
 
@@ -83,7 +87,7 @@ Browse the app:
 
 ⚡Soon!
 
-> This README was generated with 🌼🌿🌷 and 🤍 by SJROHRXD
+_This README was generated with 🌼🌿🌷 and 🤍 by SJROHRXD_
 
 ---
 
@@ -94,4 +98,4 @@ To Update: ⚡Soon!
 - [x] Have ideas 💡
 - [] Finish first release ✅
 
-🧷 [Return to Top](#Table-of-Contents)
+> [Return to Top](#Table-of-Contents)
