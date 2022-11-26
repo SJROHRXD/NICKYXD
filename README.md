@@ -75,6 +75,8 @@ Browse the app:
 
 [use-local-storage](https://github.com/nas5w/use-local-storage)
 
+[Moment Timezone](https://www.npmjs.com/package/moment-timezone)
+
 [Octicons](https://primer.style/octicons/)
 
 [Vite](https://vitejs.dev/guide/)
