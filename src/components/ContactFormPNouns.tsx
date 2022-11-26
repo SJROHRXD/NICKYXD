@@ -78,7 +78,9 @@ export function ContactForm({
         <Row>
           <Col>
             {/* MULTI-SELECT PRONOUNS HERE */}
-            <Form.Group className="mb-2">
+            <Form.Group id="formControlMS" className="mb-2">
+              <Form.Label>Pronouns</Form.Label>
+              {/* make prettier */}
               <CreatableReactSelect
                 onCreateOption={(label) => {
                   const newPNoun = { id: uuidV4(), label };
@@ -98,7 +100,6 @@ export function ContactForm({
                     })
                   );
                 }}
-                placeholder="ProNouns"
                 isMulti
               />
             </Form.Group>

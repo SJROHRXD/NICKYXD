@@ -33,3 +33,48 @@ textarea.form-control {
   box-shadow: 8px 8px 5px 0px #22272511;
   transition: all 0.3s ease 0s;
 }
+
+div.css-1s2u09g-control {
+  box-shadow: unset;
+  outline: unset;
+  border: none;
+  background-color: #f7f7f2;
+  box-shadow: 8px 8px 5px 0px #22272511;
+  transition: all 0.3s ease 0s;
+}
+
+div#react-select-3-listbox {
+  box-shadow: unset;
+  outline: none;
+  border: none;
+  background-color: #f7f7f2;
+  box-shadow: 8px 8px 5px 0px #22272511;
+  transition: all 0.3s ease 0s;
+  margin-top: 0.5%;
+  border-radius: 0.375rem;
+}
+
+div.css-1pahdxg-control:active,
+div.css-1pahdxg-control:focus,
+div.css-1pahdxg-control:focus-visible,
+div.css-1pahdxg-control:focus-within,
+div.css-1pahdxg-control:hover,
+div.css-1pahdxg-control:visited,
+div.css-1pahdxg-control:link {
+  border-radius: 0.375rem;
+  box-shadow: unset;
+  outline: unset;
+  border: none;
+  background-color: #f7f7f2;
+  box-shadow: 8px 8px 5px 0px #22272511;
+  transition: all 0.3s ease 0s;
+}
+
+div.css-1qfu80a-ValueContainer2 {
+  outline: unset;
+  border: none;
+}
+
+div.css-1rhbuit-multiValue {
+  color: #2227258d;
+}
