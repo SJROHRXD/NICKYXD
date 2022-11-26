@@ -75,7 +75,7 @@ Browse the app:
 
 [Vite](https://vitejs.dev/guide/)
 
-🧷 [Return to Top](#Table-of-Contents-)
+🧷 [Return to Top](#Table-of-Contents)
 
 ## Licensing
 
@@ -94,4 +94,4 @@ To Update: ⚡Soon!
 - [x] Have ideas 💡
 - [] Finish first release ✅
 
-🧷 [Return to Top](#Table-of-Contents-)
+🧷 [Return to Top](#Table-of-Contents)
