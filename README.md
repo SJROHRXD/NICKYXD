@@ -14,7 +14,7 @@ Screenshots - ⚡Soon!
 - [Licensing](#Licensing-)
 - [FUTURE](#FUTURE-)
 
-## Description
+## Description ✨
 
 A portofolio with 4 main features:
 
@@ -37,14 +37,14 @@ A portofolio with 4 main features:
 
 `This app is currently unbuilt and unhosted` 🔜 _ntberg.com_
 
-## Installation
+## Installation ✨
 
     git clone https://github.com/SJROHRXD/NICKYXD.git
 
     $ npm i
     $ npm run dev
 
-## Usage
+## Usage ✨
 
 Browse the app:
 
@@ -53,7 +53,7 @@ Browse the app:
 - _References_
 - _Contact_
 
-## Tech
+## Tech ✨
 
 [TypeScript](https://www.typescriptlang.org/docs/)
 
@@ -77,7 +77,7 @@ Browse the app:
 
 🧷 [Return to Top](#Table-of-Contents)
 
-## Licensing
+## Licensing ✨
 
 <!-- Refer to ✨ []() ✨ ! -->
 
