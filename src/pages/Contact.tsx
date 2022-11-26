@@ -1,78 +1,83 @@
-import { Button, Col, Container, Form, Row } from "react-bootstrap";
-import { SocMedBox } from "../components/SocMedBox";
-import { MailIcon } from "@primer/octicons-react";
+import { useMemo } from "react";
+import { useLocalStorage } from "../hooks/useLocalStorage";
+import { v4 as uuidV4 } from "uuid";
+import { ContactForm } from "../components/ContactFormPNouns";
 import "../styles/buttonGeneralStyles.css";
 import "../styles/contactGenStyles.css";
 
-// import CreatableSelect from "react-select/creatable";
+// types ✨📇
+
+// Note
+export type ContactInfo = {
+  id: string;
+} & ContactInfoData;
+
+// RawNote
+export type RawContactInfo = {
+  id: string;
+} & RawContactInfoData;
+
+// NoteData
+export type ContactInfoData = {
+  nameU: string;
+  email: string;
+  message: string;
+  pNouns: PNoun[];
+};
+
+// RawNoteData
+export type RawContactInfoData = {
+  nameU: string;
+  email: string;
+  message: string;
+  pNounIds: string[];
+};
+
+// Tag
+export type PNoun = {
+  label: string;
+  id: string;
+};
 
 export function Contact() {
+  const [contactInfos, setContactInfos] = useLocalStorage<RawContactInfoData[]>(
+    "CONTACTINFOS",
+    []
+  );
+  const [pNouns, setPNouns] = useLocalStorage<PNoun[]>("PNOUNOPTIONS", []);
+
+  function addPNoun(pNoun: PNoun) {
+    setPNouns((prev) => [...prev, pNoun]);
+  }
+
+  function addContactInfo(contactInfo: ContactInfoData) {
+    setContactInfos((prev) => [
+      ...prev,
+      {
+        ...contactInfo,
+        id: uuidV4(),
+        pNounIds: contactInfo.pNouns.map((pNoun) => pNoun.id),
+      },
+    ]);
+  }
+
+  const availablePNouns = useMemo(() => {
+    return pNouns.map((pNoun) => {
+      return {
+        ...pNoun,
+        value: pNoun.id,
+        label: pNoun.label,
+      };
+    });
+  }, [pNouns]);
+
   return (
     <>
-      <Container>
-        <h1>
-          Contact Me <MailIcon size={48} />
-          {/* adjust this icon thing later maybe */}
-        </h1>
-        <Row className="mb-2">
-          <Col>
-            <Form.Group>
-              {/* <Form.Label>Name</Form.Label> */}
-              <Form.Control type="text" placeholder="Your Name" />
-            </Form.Group>
-          </Col>
-          <Col xs={8}>
-            <Form.Group>
-              {/* <Form.Label>Email</Form.Label> */}
-              <Form.Control type="text" placeholder="email@email.com" />
-            </Form.Group>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <p>plchldr // design fill</p>
-          </Col>
-          <Col xs={8}>
-            <Form.Group className="mb-2">
-              {/* <Form.Label>Preferred Pronouns // Multiselect in future</Form.Label> */}
-              {/* <CreatableSelect isMulti options={} />; */}
-            </Form.Group>
-          </Col>
-        </Row>
-
-        <Form.Group className="mb-2">
-          {/* <Form.Label>MESSAGE</Form.Label> */}
-          <Form.Control
-            type="text"
-            required
-            as="textarea"
-            rows={10}
-            placeholder="Hi! I would love to connect..."
-          />
-        </Form.Group>
-
-        <Button>Send Mail</Button>
-      </Container>
-
-      <Container className="fixed-bottom">
-        <Row className="mb-3">
-          <SocMedBox />
-        </Row>
-      </Container>
+      <ContactForm
+        onSubmit={addContactInfo}
+        onAddPNoun={addPNoun}
+        availablePNouns={availablePNouns}
+      />
     </>
   );
 }
-
-// contact info here
-// form
-// your name, preferred pronouns, email address
-// add multiselect for pronouns
-
-//creatablereactselect
-
-// body of message
-// submit button (send email)
-
-// component with links to social media, linkedin, etc
-
-// email export template
