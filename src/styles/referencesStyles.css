@@ -1,0 +1,20 @@
+h1.thisH1 {
+  font-size: 600% !important;
+  font-weight: 700 !important;
+  background: linear-gradient(
+    to bottom right,
+    #ccccc6,
+    #adaf95,
+    #8e9c7b,
+    #5f6953
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+div.thisDIV {
+  padding-right: unset;
+  margin-right: unset;
+  /* text right justify */
+  text-align: right;
+}
