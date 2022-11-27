@@ -1,5 +1,18 @@
-// home page + intro
+import { TechBanner } from "../components/homecomps/TechBanner";
+
+import "../styles/typeWritePreWrap.css";
 
 export function Home() {
-  return <h1 className="">Nick Berg</h1>;
+  return (
+    <>
+      <TechBanner />
+    </>
+  );
 }
+
+
+// import { typeWriter } from "../components/homecomps/Typewriter";
+// import Typewriter from "../components/homecomps/AnimatedText";
+// <div id="bitch">
+// <>{typeWriter}</>
+// </div>

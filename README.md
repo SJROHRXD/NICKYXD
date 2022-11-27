@@ -99,5 +99,9 @@ To Update: ⚡Soon!
 
 - [x] Have ideas 💡
 - [] Finish first release ✅
+- [] Correct Special Button when resized
+- [] Correct SocMed Box when resized // position // fixed // sticky (mobile)
+- [] Consider different visual indication for which tab in Job Card (mobile)
+- [] Correct TS error re: append properties return null on appending the element for the typeWriter instance of the Typewriter class // animation
 
 > [Return to Top](#Table-of-Contents)

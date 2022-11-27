@@ -58,7 +58,7 @@ export function ContactForm({
               <Form.Control
                 ref={nameURef}
                 type="text"
-                placeholder="Your Name"
+                placeholder="Name"
                 required
               />
             </Form.Group>
