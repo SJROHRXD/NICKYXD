@@ -8,6 +8,7 @@ h1.thisH1 {
     #8e9c7b,
     #5f6953
   );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -15,6 +16,5 @@ h1.thisH1 {
 div.thisDIV {
   padding-right: unset;
   margin-right: unset;
-  /* text right justify */
   text-align: right;
 }
